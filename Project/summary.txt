@@ -1,0 +1,31 @@
+I. Giới thiệu
+1. Ngữ cảnh
+SDN được dùng ngày càng nhiều, vì vậy cơ chế NAC phải mạnh để tăng tính an toàn và bảo mạt cho hệ thống.
+Tuy nhiên SDN bị hạn chế về khả năng capturing network anomalies, vốn là một yếu tố quan trọng để phát hiện các nguy cơ bảo mật.
+2. Thực trạng
+- Giới thiệu sơ qua về SDN.
++ cơ chế
++ các mô hình triển khai NAC trên SDN.
++ hạn chế của các mô hình này.
+II. Giải pháp của bài báo
+1. Các kỹ thuật được sử dụng
+2. Mô hình tổng quan
+3. Mô hình chi tiết
+- mô hình gồm 3 phần chính:
++ 1. Anomaly-based IDS
++ 2. Anomaly-based IDS Outcome Explanation (main focus of the paper)
+  Sử dụng bài báo LEMNA[14] để xây dựng model có nhiệm vụ giải thích kết quả của mô hình IDS. 
++ 3. Access Control Policy Generation (main focus of the paper)
+  Từ kết quả của mô hình giải thích, xây dựng các access control policy phù hợp cho mô hình mạng SDN.
+III. Demo
+Đưa ra case study: Neptune attack aka SYN-ACK attack.
+1. Demo mô hình anomaly-based IDS.
++ Xây dựng được model
++ Hiểu model (input, output, các layer, cách xử lí,...)
++ Đánh giá tập dataset
++ 
+2. Demo mô hình Outcome Explanation.
++ tương tự phần 1.
+3. Policy Generation
+* PHÁT TRIỂN: Thêm 1 hoặc 2 case study?
+IV. Đánh giá
